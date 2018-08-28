@@ -42,6 +42,27 @@ header h1 {
   height: 67px;
 }
 
-.nav-links {
-  font-size: 25px;
+.nav-links a {
+  font-size: 23px;
+  padding: 0px 10px 0px 10px;
+}
+
+.dropdown-icon {
+  font-size: 32px;
+  position: relative;
+  top: 5px;
+}
+
+.user-icon {
+  font-size: 32px;
+  position: relative;
+  top: 5px;
+  color: white;
+}
+
+.login {
+  background-color: darkgrey;
+  color: white;
+  border-radius: 5px;
+  padding-top: 20px;
 }

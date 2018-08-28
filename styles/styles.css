@@ -29,7 +29,9 @@ a {
 /* NAV WRAPPER */
 
 nav {
+  box-sizing: border-box;
   display: flex;
+  width: 100%;
   padding: 25px;
   align-items: center;
   justify-content: space-between;
@@ -40,12 +42,12 @@ nav {
 header {
   display: flex;
   align-items: center;
-  font-size: 30px;
 }
 
 header h1 {
   margin-left: 15px;
   border-bottom: 1px solid black;
+  font-size: 25px;
 }
 
 .cross {
@@ -56,7 +58,7 @@ header h1 {
 /* LINKS */
 
 .nav-links a {
-  font-size: 22px;
+  font-size: 18px;
   padding: 0px 10px 0px 10px;
 }
 
@@ -83,9 +85,10 @@ header h1 {
 }
 
 .dropdown-icon {
-  font-size: 32px;
+  font-size: 28px;
   position: relative;
   top: 5px;
+  right: 6px;
 }
 
 /* MEMBER LOGIN */
@@ -109,3 +112,6 @@ header h1 {
 #login:hover:before {
   visibility: hidden
 }
+
+
+/* --- MEDIA QUERIES --- */

@@ -21,6 +21,7 @@ body {
 /* ELEMENT STYLING */
 
 a {
+  position: relative;
   text-decoration: none;
   color: inherit;
 }
@@ -59,6 +60,27 @@ header h1 {
   padding: 0px 10px 0px 10px;
 }
 
+.nav-links > a:before {
+  content: "";
+  position: absolute;
+  width: 95%;
+  height: 1px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+.nav-links > a:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
 .dropdown-icon {
   font-size: 32px;
   position: relative;
@@ -79,4 +101,10 @@ header h1 {
   color: white;
   border-radius: 5px;
   padding: 10px;
+}
+
+/* DISABLE HOVER EFFECT */
+
+#login:hover:before {
+  visibility: hidden
 }

@@ -13,3 +13,17 @@
 body {
   font-family: 'Cinzel', serif;
 }
+
+nav {
+  display: flex;
+  padding: 25px;
+}
+
+nav h1 {
+  padding-left: 20px;
+}
+
+.cross {
+  width: 37px;
+  height: 67px;
+}

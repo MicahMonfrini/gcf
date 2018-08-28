@@ -25,13 +25,7 @@ a {
   color: inherit;
 }
 
-/* NAVBAR STYLING */
-
-header {
-  display: flex;
-  align-items: center;
-  font-size: 30px;
-}
+/* NAV WRAPPER */
 
 nav {
   display: flex;
@@ -40,15 +34,25 @@ nav {
   justify-content: space-between;
 }
 
+/* LOGO/TITLE */
+
+header {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+}
+
 header h1 {
   margin-left: 15px;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
 .cross {
   width: 37px;
   height: 67px;
 }
+
+/* LINKS */
 
 .nav-links a {
   font-size: 22px;
@@ -60,6 +64,8 @@ header h1 {
   position: relative;
   top: 5px;
 }
+
+/* MEMBER LOGIN */
 
 .user-icon {
   font-size: 32px;

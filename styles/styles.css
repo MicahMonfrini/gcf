@@ -1,3 +1,5 @@
+/* RESET */
+
 * {
   vertical-align: baseline;
 	font-weight: inherit;
@@ -10,14 +12,20 @@
   margin: 0;
 }
 
+/* BODY STYLING */
+
 body {
   font-family: 'Cinzel', serif;
 }
+
+/* ELEMENT STYLING */
 
 a {
   text-decoration: none;
   color: inherit;
 }
+
+/* NAVBAR STYLING */
 
 header {
   display: flex;
@@ -43,7 +51,7 @@ header h1 {
 }
 
 .nav-links a {
-  font-size: 23px;
+  font-size: 22px;
   padding: 0px 10px 0px 10px;
 }
 
@@ -60,9 +68,9 @@ header h1 {
   color: white;
 }
 
-.login {
+#login {
   background-color: darkgrey;
   color: white;
   border-radius: 5px;
-  padding-top: 20px;
+  padding: 10px;
 }

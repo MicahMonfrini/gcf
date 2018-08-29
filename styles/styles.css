@@ -46,6 +46,7 @@ header {
 
 header h1 {
   margin-left: 15px;
+  padding-bottom: 8px;
   border-bottom: 1px solid black;
   font-size: 25px;
 }

@@ -26,7 +26,7 @@ a {
   color: inherit;
 }
 
-/* NAV WRAPPER */
+/* NAV */
 
 nav {
   box-sizing: border-box;
@@ -37,7 +37,7 @@ nav {
   justify-content: space-between;
 }
 
-/* LOGO/TITLE */
+/* logo/title */
 
 header {
   display: flex;
@@ -56,12 +56,14 @@ header h1 {
   height: 67px;
 }
 
-/* LINKS */
+/* links */
 
 .nav-links a {
   font-size: 18px;
   margin: 0px 10px 0px 10px;
 }
+
+/* link underline animation */
 
 .nav-links > a:before {
   content: "";
@@ -84,6 +86,8 @@ header h1 {
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
+
+/* link chevrons */
 
 .dropdown-icon {
   font-size: 28px;
@@ -109,19 +113,20 @@ header h1 {
   padding: 10px;
 }
 
-/* DISABLE HOVER EFFECT */
+/* underline animation disabled */
 
 #login:hover:before {
   visibility: hidden
 }
 
-/* MAIN SECTION WRAPPER */
+/* --- MAIN SECTION --- */
 
 main {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* background image */
   background:
     linear-gradient(
       rgba(0, 0, 0, 0.5),
@@ -134,7 +139,7 @@ main {
   height: 500px;
 }
 
-/* MAIN SECTION TEXT BOX */
+/* text box */
 
 .main-text {
   box-sizing: border-box;
@@ -147,7 +152,7 @@ main {
   color: white;
 }
 
-/* MAIN TEXT */
+/* main text */
 
 .main-text h2 {
   font-size: 55px;
@@ -155,7 +160,12 @@ main {
   text-align: center;
 }
 
-/* MAIN TEXT UNDERLINE */
+.main-text h3 {
+  font-size: 32px;
+  padding-top: 30px;
+}
+
+/* divider */
 
 .main-text h2:after {
 	content: '';
@@ -167,24 +177,26 @@ main {
 	bottom: -10px;
 }
 
-.main-text h3 {
-  font-size: 32px;
-  padding-top: 30px;
-}
+/* MORE INFO BUTTON */
 
-.main-text a {
-  font-size: 16px;
-  border: white 1px solid;
-  padding: 10px 50px;
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
+/* hover animation */
 
 .main-text a:hover {
   background-color: darkslategrey;
   -webkit-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
+
+.main-text a {
+  font-size: 16px;
+  border: white 1px solid;
+  padding: 10px 50px;
+  /* reverse hover animation on mouseout */
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+/* more info chevron */
 
 .more-info-icon {
   font-size: 18px;

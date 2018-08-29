@@ -145,9 +145,17 @@ header h1 {
   }
 
   #login {
+    text-align: center;
     padding: 5px;
   }
+
+  /* HIDE NAV ICONS */
+
+  .dropdown-icon {
+    display: none;
+  }
+  
   .user-icon {
-    font-size: 30px;
+    display: none;
   }
 }

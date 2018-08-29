@@ -137,10 +137,11 @@ main {
 /* MAIN SECTION TEXT BOX */
 
 .main-text {
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 800px;
+  width: 80%;
   height: 60%;
   justify-content: space-between;
   color: white;
@@ -150,13 +151,41 @@ main {
 
 .main-text h2 {
   font-size: 55px;
+  position: relative;
 }
 
-.main-text h2 {
-  font-size: 55px;
+/* MAIN TEXT UNDERLINE */
+
+.main-text h2:after {
+	content: '';
+	width: 75%;
+	left: 12%;
+	height: 1px;
+	background:white;
+	position: absolute;
+	bottom: -10px;
+}
+
+.main-text h3 {
+  font-size: 32px;
+}
+
+.main-text a {
+  font-size: 16px;
+  border: white 1px solid;
+  padding: 10px 50px;
+}
+
+.more-info-icon {
+  font-size: 18px;
+  position: relative;
+  top: 2px;
+  color: white;
 }
 
 /* --- MEDIA QUERIES --- */
+
+/* --- NAV --- */
 
 @media all and (max-width: 1365px) {
   nav {
@@ -168,7 +197,7 @@ main {
   }
 }
 
-@media all and (max-width: 870px) {
+@media all and (max-width: 884px) {
   .nav-links {
     display: flex;
     flex-direction: column;
@@ -178,7 +207,7 @@ main {
     margin: 10px 0px 10px 0px;
   }
 
-  /* DISABLE HOVER */
+  /* disable hover */
 
   .nav-links > a:hover:before {
     visibility: hidden;
@@ -189,7 +218,7 @@ main {
     padding: 5px;
   }
 
-  /* HIDE NAV ICONS */
+  /* hide nav icons */
 
   .dropdown-icon {
     display: none;
@@ -199,3 +228,7 @@ main {
     display: none;
   }
 }
+
+/* --- MAIN --- */
+
+/* main text */

@@ -102,6 +102,7 @@ header h1 {
 }
 
 #login {
+  box-sizing: border-box;
   background-color: darkgrey;
   color: white;
   border-radius: 5px;
@@ -116,3 +117,37 @@ header h1 {
 
 
 /* --- MEDIA QUERIES --- */
+
+@media all and (max-width: 1365px) {
+  nav {
+    flex-direction: column;
+  }
+  
+  header {
+    margin-bottom: 25px;
+  }
+}
+
+@media all and (max-width: 870px) {
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-links a {
+    font-size: 18px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  /* DISABLE HOVER */
+
+  .nav-links > a:hover:before {
+    visibility: hidden;
+  }
+
+  #login {
+    padding: 5px;
+  }
+  .user-icon {
+    font-size: 30px;
+  }
+}

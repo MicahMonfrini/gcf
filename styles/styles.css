@@ -95,6 +95,8 @@ header h1 {
   transform: scaleX(1);
 }
 
+/* dropdown menu */
+
 .nav-dropdown {
   position: relative;
 }

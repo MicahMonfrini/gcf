@@ -6,7 +6,7 @@
 	font-family: inherit;
 	font-style: inherit;
 	font-size: 100%;
-	border: 0 none;
+  border: 0 none;
 	outline: 0;
 	padding: 0;
   margin: 0;
@@ -24,6 +24,14 @@ a {
   position: relative;
   text-decoration: none;
   color: inherit;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline;
 }
 
 /* NAV */
@@ -65,7 +73,7 @@ header h1 {
 
 /* link underline animation */
 
-.nav-links > a:before {
+.nav-links > li > a:before {
   content: "";
   position: absolute;
   width: 95%;
@@ -81,7 +89,7 @@ header h1 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-links > a:hover:before {
+.nav-links > li > a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);

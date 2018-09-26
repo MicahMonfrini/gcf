@@ -97,11 +97,12 @@ header h1 {
 
 /* dropdown menu */
 
-.nav-dropdown {
+#believe-dropdown #ministries-dropdown {
   position: relative;
 }
 
 .dropdown-list {
+  display: none;
   position: absolute;
   left: 1px;
   width: 100%;

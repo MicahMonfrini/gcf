@@ -111,8 +111,13 @@ header h1 {
   z-index: 1;
 }
 
+.active {
+  display: block;
+}
+
 .dropdown-list li {
   display: block;
+  text-align: center;
 }
 
 /* link chevrons */

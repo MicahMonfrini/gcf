@@ -9,7 +9,7 @@ $(document).ready(function() {
   //Hide dropdown if body is clicked
   $(document).on('click', function(event) {
     if (!$(event.target).closest('.nav-dropdown').length) {
-      $(".dropdown-list").fadeOut();
+      $(".dropdown-list").fadeOut()
     }
   });
 });

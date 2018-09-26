@@ -97,7 +97,7 @@ header h1 {
 
 /* dropdown menu */
 
-#believe-dropdown #ministries-dropdown {
+.nav-dropdown {
   position: relative;
 }
 

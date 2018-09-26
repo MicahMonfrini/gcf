@@ -1,5 +1,12 @@
 /* RESET */
 
+/* 
+TODO: 
+- finish styling dropdown-list elements
+- tweak hover effect on .section-item elements
+- add hover effect to member login button
+*/
+
 * {
   vertical-align: baseline;
 	font-weight: inherit;
@@ -15,6 +22,7 @@
 /* BODY STYLING */
 
 body {
+  background-color: #EAEAEA;
   font-family: 'Cinzel', serif;
 }
 
@@ -253,11 +261,17 @@ section {
 /* section items */
 
 .section-item {
-  border: #000 solid 1px;
+  background-color: rgba(248, 248, 248, 0.75);
+  box-shadow: 0 0 2px 0 #bbbbbb;
   text-align: center;
   font-size: 26px;
   width: 400px;
   height: 325px;
+}
+
+.section-item:hover {
+	background-color: rgba(252, 252, 252, 0.9);
+	box-shadow: 0 0 8px 0 #bbbbbb;
 }
 
 /* section icons */

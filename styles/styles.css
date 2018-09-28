@@ -3,7 +3,6 @@
 /* 
 TODO: 
 - finish styling dropdown-list elements
-- tweak hover effect on .section-item elements
 - add hover effect to member login button
 */
 
@@ -93,8 +92,8 @@ header h1 {
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.2s ease-in-out 0s;
+  transition: all 0.2s ease-in-out 0s;
 }
 
 .nav-links > li > a:hover:before {

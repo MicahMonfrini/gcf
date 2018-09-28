@@ -153,10 +153,14 @@ header h1 {
   padding: 10px;
 }
 
+#login:hover {
+  background-color: #306060;
+}
+
 /* underline animation disabled */
 
 #login:hover:before {
-  visibility: hidden
+  visibility: hidden;
 }
 
 /* --- MAIN SECTION --- */

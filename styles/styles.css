@@ -127,6 +127,10 @@ header h1 {
   color: #000;
 }
 
+.active {
+  display: none;
+}
+
 .dropdown-list a:hover {
   background-color: #306060;
   color: white;

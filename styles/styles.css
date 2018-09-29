@@ -122,17 +122,17 @@ header h1 {
   display: block;
 }
 
-.dropdown-list li {
+.dropdown-list a {
   display: block;
   padding-top: 10px;
   padding-bottom: 10px;
   border-bottom:black 1px solid;
-}
-
-.dropdown-list a {
-  display: inline-block;
   font-size: 14px;
   color: #000;
+}
+
+.dropdown-list li:hover {
+  color: #aaaaaa;
 }
 
 /* link chevrons */

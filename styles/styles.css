@@ -117,10 +117,6 @@ header h1 {
   z-index: 1;
 }
 
-.active {
-  display: block;
-}
-
 .dropdown-list a {
   display: block;
   font-family: 'Quattrocento', serif;

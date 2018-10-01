@@ -315,7 +315,7 @@ section {
     display: flex;
     flex-direction: column;
   }
-  .nav-links a {
+  .nav-links li {
     font-size: 18px;
     margin: 10px 0px 10px 0px;
   }

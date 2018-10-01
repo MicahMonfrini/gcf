@@ -334,7 +334,9 @@ section {
   /* hide nav icons */
 
   .dropdown-icon {
-    display: none;
+    font-size: 18px;
+    top: 1px;
+    right: 1px;
   }
   
   .user-icon {

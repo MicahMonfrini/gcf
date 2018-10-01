@@ -328,16 +328,17 @@ section {
 
   #login {
     text-align: center;
-    padding: 5px;
+    font-size: 16px;
+    padding: 10px;
   }
-
-  /* hide nav icons */
 
   .dropdown-icon {
     font-size: 18px;
     top: 1px;
     right: 1px;
   }
+
+    /* hide user icons */
   
   .user-icon {
     display: none;

@@ -322,7 +322,7 @@ section {
 
   /* disable hover */
 
-  .nav-links > a:hover:before {
+  .nav-links > li > a:hover:before {
     visibility: hidden;
   }
 

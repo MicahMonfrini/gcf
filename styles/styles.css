@@ -299,10 +299,17 @@ section {
 /* FOOTER */
 
 footer {
+  display: flex;
+  justify-content: space-around;
   width: 100%;
   font-family: 'Quattrocento', serif;
   color: white;
   background-color: #19191D;
+}
+
+.footer-item {
+  width: 300px;
+  margin: 50px 0;
 }
 
 /* --- MEDIA QUERIES --- */

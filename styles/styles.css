@@ -296,6 +296,15 @@ section {
   margin-left: 30px;
 }
 
+/* FOOTER */
+
+footer {
+  width: 100%;
+  font-family: 'Quattrocento', serif;
+  color: white;
+  background-color: #19191D;
+}
+
 /* --- MEDIA QUERIES --- */
 
 /* --- NAV --- */

@@ -323,8 +323,11 @@ footer {
 }
 
 .footer-item h5 {
+  display: inline-block;
   font-size: 22px;
-  padding: 15px 0;
+  margin: 15px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
 }
 
 /* --- MEDIA QUERIES --- */

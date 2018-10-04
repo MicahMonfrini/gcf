@@ -307,12 +307,16 @@ footer {
   background-color: #19191D;
 }
 
+/* content/container styles */
+
 .footer-item {
   font-size: 18px;
   line-height: 25px;
   width: 300px;
   margin: 50px 0;
 }
+
+/* footer item titles */
 
 .footer-item h4 {
   font-size: 30px;
@@ -321,6 +325,8 @@ footer {
   padding-bottom: 20px;
   border-bottom: 1px solid white;
 }
+
+/* day of week headers */
 
 .footer-item h5 {
   display: inline-block;

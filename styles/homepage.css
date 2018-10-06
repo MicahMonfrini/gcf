@@ -348,8 +348,13 @@ footer {
 
 .contact-icons {
   position: absolute;
-  font-size: 45px;
-  right: 50px;
+  font-size: 30px;
+  right: 325px;
+}
+
+.location-icon {
+  position: absolute;
+  top: 90px;
 }
 
 /* copyright */

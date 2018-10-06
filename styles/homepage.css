@@ -311,6 +311,7 @@ footer {
 /* content/container styles */
 
 .footer-item {
+  position: relative;
   font-size: 18px;
   line-height: 25px;
   width: 300px;
@@ -341,6 +342,14 @@ footer {
 
 .contact-padding {
   padding-bottom: 30px;
+}
+
+/* contact icons */
+
+.contact-icons {
+  position: absolute;
+  font-size: 45px;
+  right: 50px;
 }
 
 /* copyright */

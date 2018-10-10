@@ -356,6 +356,10 @@ footer {
   top: 90px;
 }
 
+.google-maps:hover {
+  text-decoration: underline;
+}
+
 /* copyright */
 
 .copyright {

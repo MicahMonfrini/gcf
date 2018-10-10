@@ -474,8 +474,10 @@ footer {
   .copyright {
     top: 825px;
   }
+}
 
 @media all and (max-width: 884px) {
   .contact-icons {
     right: 310px;
   }
+}

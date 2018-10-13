@@ -1,6 +1,15 @@
 .about-wrapper {
-  text-align: center;
-  background-color: red;
+  display: flex;
+  justify-content: center;
   width: 60%;
   margin: auto;
+}
+
+.about-title {
+  text-align: center;
+  width: 200px;
+  font-size: 35px;
+  padding: 10px 0;
+  margin-bottom: 50px;
+  border-bottom: solid 1px black;
 }

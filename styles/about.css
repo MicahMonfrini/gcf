@@ -1,7 +1,8 @@
 .about-wrapper {
   display: flex;
-  justify-content: center;
-  width: 60%;
+  flex-direction: column;
+  align-items: center;
+  width: 45%;
   margin: auto;
 }
 
@@ -12,4 +13,10 @@
   padding: 10px 0;
   margin-bottom: 50px;
   border-bottom: solid 1px black;
+}
+
+.about-text {
+  font-size: 20px;
+  line-height: 1.7;
+  font-family: 'Quattrocento', serif;
 }

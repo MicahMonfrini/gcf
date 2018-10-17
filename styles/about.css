@@ -9,6 +9,7 @@ TODO:
   flex-direction: column;
   align-items: center;
   width: 45%;
+  height: 100%;
   margin-bottom: 50px;
 }
 
@@ -25,6 +26,79 @@ TODO:
   font-size: 20px;
   line-height: 1.7;
   font-family: 'Quattrocento', serif;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  width: 100%;
+  font-family: 'Quattrocento', serif;
+  color: white;
+  background-color: #19191D;
+}
+
+/* content/container styles */
+
+.footer-item {
+  position: relative;
+  font-size: 18px;
+  line-height: 25px;
+  width: 300px;
+  margin: 50px 0;
+}
+
+/* footer item titles */
+
+.footer-titles {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+/* day of week headers */
+
+.days {
+  display: inline-block;
+  font-size: 22px;
+  margin: 15px 0;
+  padding-bottom: 5px;
+  border-bottom: 1px solid white;
+}
+
+/* contact info text */
+
+.contact-padding {
+  padding-bottom: 30px;
+}
+
+/* contact icons */
+
+.contact-icons {
+  position: absolute;
+  font-size: 30px;
+  right: 325px;
+}
+
+.location-icon {
+  position: absolute;
+  top: 90px;
+}
+
+.google-maps:hover {
+  text-decoration: underline;
+}
+
+/* copyright */
+
+.copyright {
+  position: absolute;
+  font-size: 12px;
+  top: 450px;
 }
 
 /* --- MEDIA QUERIES --- */
@@ -44,5 +118,26 @@ TODO:
 @media all and (max-width: 590px) {
   .about-wrapper {
     width: 80%;
+  }
+}
+
+/* --- FOOTER --- */
+
+/* footer items */
+
+@media all and (max-width: 884px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .copyright {
+    top: 825px;
+  }
+}
+
+@media all and (max-width: 884px) {
+  .contact-icons {
+    right: 310px;
   }
 }

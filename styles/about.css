@@ -29,3 +29,20 @@ TODO:
 
 /* --- MEDIA QUERIES --- */
 
+@media all and (max-width: 1365px) {
+  .about-wrapper {
+    width: 60%;
+  }
+}
+
+@media all and (max-width: 884px) {
+  .about-wrapper {
+    width: 70%;
+  }
+}
+/* 
+@media all and (max-width: 884px) {
+  .about-wrapper {
+    width: 70%;
+  }
+} */

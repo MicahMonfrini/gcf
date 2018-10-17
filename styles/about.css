@@ -40,9 +40,9 @@ TODO:
     width: 70%;
   }
 }
-/* 
-@media all and (max-width: 884px) {
+
+@media all and (max-width: 590px) {
   .about-wrapper {
-    width: 70%;
+    width: 80%;
   }
-} */
+}
